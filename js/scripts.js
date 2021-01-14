@@ -30,11 +30,11 @@ $(document).ready(function()  {
     const number1 = parseInt($("#multiply1").val());
     const number2 = parseInt($("#multiply2").val());
     alert(multiply(number1, number2));
+  });
   $("form#divide").submit(function(event) {
     event.preventDefault();
     const number1 = parseInt($("#divide1").val());
-    const number2 = parseInt($("divide2").val());
+    const number2 = parseInt($("#divide2").val());
     alert(divide(number1, number2));
-   });
   });
 });
